@@ -285,7 +285,7 @@ Content-Security-Policy: require-trusted-types-for 'script'; report-uri //my-csp
 
 Voila! Now, no matter how complex your web application is, the only thing that
 can introduce a DOM XSS vulnerability, is the code in one of your policies - and
-you can lock that down even more by [limiting policy creation](https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-types-csp-directive).
+you can lock that down even more by [limiting policy creation](https://w3c.github.io/trusted-types/dist/spec//#trusted-types-csp-directive).
 
 ## Further reading
 
